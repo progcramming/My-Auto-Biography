@@ -1,0 +1,101 @@
+/*HEADER*/
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+.header{
+    height: 100vh;
+width: 100%;
+background-image: url(background.jpg);
+background-size: cover ;
+background-position: center;
+
+}
+
+nav{
+    background: burlywood;
+    height: 10%;
+    border-radius: 100px;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    position: fixed;
+    left: 0;      /* ADDED */
+  top: 0;       /* ADDED */
+  width: 100%;  /* ADDED */
+  z-index: 1;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 50px;
+    margin:100px;
+    line-height: 70px;
+}
+span{
+    color: brown;
+}
+
+
+ /*main*/
+            /*home*/
+
+         .content{
+        
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-30%);
+            padding: 10%;
+            
+         }
+
+         h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 0px;
+            font-size: 55px;
+            
+         }
+         h3{
+            font-family:'Times New Roman', Times, serif;
+            color: white;
+            font-size: 25px;
+            margin-bottom: 50px;
+         }
+         h4{
+            color: rgba(255, 250, 204, 0.8);
+            letter-spacing: 2px;
+            font-size: 20px;
+         }
+         
+         .autobiog{
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            background: burlywood;
+            height: 79%;
+            border-radius: 100px;
+            justify-content: space-between;
+            padding-top: 1%;
+            padding-bottom: 0%;
+            position: fixed;
+            left: 0;    
+          top: 0;     
+          width: 100%;  
+          z-index: 1;
+            position: fixed;
+            top: 60%;
+            left: 40%;
+            transform: translate(-30%);
+            padding: 2%;
+         }
+
+         p{
+            padding: 3%;
+            text-align: justify;
+         }
+
+       
+
